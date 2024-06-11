@@ -22,5 +22,29 @@ int main(){
     printf("Print float fraction number: %f\n", float_fraction_number);
     printf("Print double fraction number: %lf\n", double_fraction_number);
 
+
+    printf("\n%zu\n", sizeof(long_long_integer_number));
+
+
+    int firstNumber;
+    firstNumber = 50.56;
+    printf("\n\nFirst number: %d\n\n", firstNumber);
+    firstNumber = 60;
+    printf("\n\nFirst number: %d\n\n", firstNumber);
+    firstNumber = 70;
+    printf("\n\nFirst number: %d\n\n", firstNumber);
+
+
+    float floatNumber = 50;
+    printf("\n\nFloat number: %.3f\n\n", floatNumber);
+
+    double doubleNumber = 50.605654;
+    printf("\n\nDouble number: %.5lf\n\n", doubleNumber);
+
+
+    char ch = 'A';
+    printf("\n\n%c\n", ch);
+    printf("\n\n%zu\n", sizeof(ch));
+
     return 0;
 }
