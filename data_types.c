@@ -1,4 +1,7 @@
 #include<stdio.h>
+
+typedef unsigned long long l;
+
 int main(){
     /*
         Number are 2 types:
@@ -45,6 +48,25 @@ int main(){
     char ch = 'A';
     printf("\n\n%c\n", ch);
     printf("\n\n%zu\n", sizeof(ch));
+
+    unsigned int unsignedIntegerNumber = 4294967295;
+    printf("Unsigned integer number: \t%u\n", unsignedIntegerNumber);
+
+    unsigned long long unsignedLongLongNumber = 18446744073709551615;
+    printf("Unsigned long long number: \t%llu\n", unsignedLongLongNumber);
+
+    
+    l unsigned_long_long_number = 18446744073709551615;
+    printf("%llu\n", unsigned_long_long_number);
+
+
+    // printf("%d\n", number);
+    // int number = 50;
+
+    
+    // int num;
+    // float num;
+    // printf("%d", num);
 
     return 0;
 }
